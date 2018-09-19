@@ -7,9 +7,11 @@ void setup(){
  translate(10,10);
  //rotate(-PI/2);
  //for(int j=0;j<256;j++){
- 
-//for(int k=0;k<8;k++){
-   cell_A(arr_B(list,2));
+
+//for(int k=0;k<7;k++){
+cell_A(arr_B(list,0));delay(5000);
+cell_A(arr_B(list,1));
+//delay(2000);}
  //text(list_of[j][k]+" ",5+5*j,10+10*k);
  //delay(2000);
  //background(0);

@@ -23,8 +23,11 @@ public void setup(){
  translate(10,10);
  //rotate(-PI/2);
  //for(int j=0;j<256;j++){
-//for(int k=0;k<8;k++){
-   cell_A(arr_B(list,2));
+
+//for(int k=0;k<7;k++){
+cell_A(arr_B(list,0));delay(5000);
+cell_A(arr_B(list,1));
+//delay(2000);}
  //text(list_of[j][k]+" ",5+5*j,10+10*k);
  //delay(2000);
  //background(0);
@@ -98,7 +101,8 @@ return 0;
 
 
 
-int [][] list={{1,1,0,0,1,1,1,0},{1,0,1,0,1,1,0,1},{1,0,0,1,1,0,1,0},{1,0,0,1,1,0,1,1}};
+int [][] list={{1,1,0,0,1,1,1,0},{1,0,1,0,1,1,0,1},{1,0,0,1,1,0,1,0},{1,0,0,1,1,0,1,1},
+{0,0,1,1,0,1,0,1},{0,1,0,1,1,0,1,0},{1,0,0,1,0,0,1,1}};
   public void settings() {  size(1200,600); }
   static public void main(String[] passedArgs) {
     String[] appletArgs = new String[] { "Cellular_Array_with_comb_2018" };
